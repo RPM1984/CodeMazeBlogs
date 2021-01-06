@@ -29,7 +29,6 @@ AppData/
 App_Data/
 *.log.*
 [Ll]ogs/
-[Dd]ata/
 [Pp]ackages/
 [Tt]humbs.db
 [Tt]est[Rr]esult*
