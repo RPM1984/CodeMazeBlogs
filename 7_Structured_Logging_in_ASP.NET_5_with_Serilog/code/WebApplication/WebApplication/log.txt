@@ -194,3 +194,59 @@
 2021-04-15 17:13:32.704 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
 2021-04-15 17:13:32.709 +10:00 [INF] HTTP GET / responded 200 in 5.0462 ms
 2021-04-15 17:19:15.258 +10:00 [INF] Application is shutting down...
+2021-04-21 09:11:38.191 +10:00 [INF] Starting web host
+2021-04-21 09:11:39.335 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 09:11:39.341 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 09:11:39.343 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 09:11:39.344 +10:00 [INF] Hosting environment: Development
+2021-04-21 09:11:39.345 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 09:11:40.331 +10:00 [INF] This is a log message. This is an object: {"name":"foo"}
+2021-04-21 09:11:40.502 +10:00 [INF] HTTP GET / responded 200 in 305.2975 ms
+2021-04-21 09:11:40.578 +10:00 [INF] HTTP GET /js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 responded 200 in 6.8294 ms
+2021-04-21 09:11:40.621 +10:00 [INF] HTTP GET /css/site.css responded 200 in 50.2966 ms
+2021-04-21 09:11:40.634 +10:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 63.2469 ms
+2021-04-21 09:11:40.664 +10:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 92.4924 ms
+2021-04-21 09:11:40.686 +10:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 115.2867 ms
+2021-04-21 09:11:40.903 +10:00 [INF] HTTP GET /favicon.ico responded 200 in 15.3160 ms
+2021-04-21 09:11:43.936 +10:00 [INF] Application is shutting down...
+2021-04-21 09:16:18.319 +10:00 [INF] Starting web host
+2021-04-21 09:16:18.840 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-21 09:16:18.845 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-21 09:16:18.846 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 09:16:18.846 +10:00 [INF] Hosting environment: Development
+2021-04-21 09:16:18.847 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-21 09:16:19.563 +10:00 [INF] This is a log message. This is an object: {"name":"John Doe"}
+2021-04-21 09:16:19.684 +10:00 [INF] HTTP GET / responded 200 in 252.6836 ms
+2021-04-23 11:35:20.793 +10:00 [INF] Starting web host
+2021-04-23 11:35:21.361 +10:00 [INF] User profile is available. Using 'C:\Users\Ryan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-04-23 11:35:21.921 +10:00 [INF] Now listening on: https://localhost:5001
+2021-04-23 11:35:21.924 +10:00 [INF] Now listening on: http://localhost:5000
+2021-04-23 11:35:21.927 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-23 11:35:21.929 +10:00 [INF] Hosting environment: Development
+2021-04-23 11:35:21.930 +10:00 [INF] Content root path: C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication
+2021-04-23 11:35:22.770 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-04-23 11:35:22.825 +10:00 [INF] Executing endpoint '/Index'
+2021-04-23 11:35:22.939 +10:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-04-23 11:35:22.964 +10:00 [INF] Executing handler method WebApplication.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-04-23 11:35:22.977 +10:00 [INF] This is a log message. This is an object: {"name":"John Doe"}
+2021-04-23 11:35:22.988 +10:00 [INF] Executed handler method OnGet, returned result .
+2021-04-23 11:35:22.993 +10:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-04-23 11:35:22.995 +10:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-04-23 11:35:23.140 +10:00 [INF] Executed page /Index in 194.2383ms
+2021-04-23 11:35:23.150 +10:00 [INF] Executed endpoint '/Index'
+2021-04-23 11:35:23.158 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 392.3359ms
+2021-04-23 11:35:23.205 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-04-23 11:35:23.205 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2021-04-23 11:35:23.205 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2021-04-23 11:35:23.205 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-04-23 11:35:23.206 +10:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-04-23 11:35:23.215 +10:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\js\site.js'
+2021-04-23 11:35:23.218 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 12.1362ms
+2021-04-23 11:35:23.288 +10:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\css\site.css'
+2021-04-23 11:35:23.296 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 89.8371ms
+2021-04-23 11:35:23.308 +10:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-04-23 11:35:23.314 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 108.5246ms
+2021-04-23 11:35:23.316 +10:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-04-23 11:35:23.321 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 115.6174ms
+2021-04-23 11:35:23.329 +10:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Projects\CodeMazeBlogs\7_Structured_Logging_in_ASP.NET_5_with_Serilog\code\WebApplication\WebApplication\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-04-23 11:35:23.337 +10:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 131.9434ms
