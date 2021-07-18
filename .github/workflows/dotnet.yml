@@ -9,7 +9,10 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest    
+    defaults:
+      run:
+        working-directory: 8_Code_Coverage_in_NET/code/CodeCoverageSample
 
     steps:
     - uses: actions/checkout@v2
